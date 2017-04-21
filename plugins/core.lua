@@ -1,5 +1,5 @@
 local help_text = [[
-*Beyond Messeger Bot Commands :*
+*Messeger Bot Commands :*
 
 */id*
 _Show Your And Chat ID_
@@ -61,15 +61,11 @@ _Good Luck_ *:D*
 ]]
 
 local mem_help = [[
-*Welcome To Beyond Messenger Bot :*
+*Welcome To FAKE Messenger Bot :*
 
 */id*
 _Show Your And Chat ID_
 
-*/beyond*
-_Show About Bot_
-
-[Beyond Team Channel](Telegram.Me/BeyondTeam)
 _Good Luck_ *:D*
 
 ]]
@@ -402,7 +398,6 @@ patterns ={
 "^[/](help)$",
 "^[/](blocklist)$",
 "^[/](sudolist)$",
-"^[/](beyond)$",
 "^[/](clean blocklist)$",
 "^[/](users)$",
 "^[/](setstart) (.*)$",
