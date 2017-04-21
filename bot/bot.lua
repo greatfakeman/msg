@@ -130,28 +130,8 @@ function create_config( )
     enabled_plugins = {
     "core"
     },
-    sudo_users = {157059515},--Sudo users
-    info_text = [[*》Beyond Messenger V1.0*
-`》An messenger bot based on plugin`
-
-》[Beyond Messenger](https://github.com/BeyondTeam/BDMessenger)
-
-*》Admins :*
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/MAKAN)
-_》Developer :_ [ToOfan](Telegram.Me/ToOfan)
-_》Developer :_ [Ehsan](Telegram.Me/CliFather)
-
-*》Special thanks to :*
-》[MrHalix](Telegram.Me/MrHalix)
-`And Beyond Team Members`
-
-*》Our channel :*
-》[BeyondTeam](Telegram.Me/BeyondTeam)
-
-*》Our Site :*
-[BeyondTeam](BeyondTeam.ir)
-]],
+    sudo_users = {272167798},--Sudo users
+    info_text = [],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
